@@ -44,6 +44,7 @@ protected void Application_Start()
 	
 	MediaTypeFormatterConfig.RegisterJsonNetMediaTypeFormatter(GlobalConfiguration.Configuration.Formatters);
 }
+```
 
 This removes the default `JsonMediaTypeFormatter` and adds in the included `JsonNetMediaTypeFormatter`.
 
